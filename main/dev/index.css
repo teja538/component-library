@@ -1,0 +1,64 @@
+@import url(./variables.css);
+
+
+.parent-block
+{
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: blueviolet;
+    border: 10px solid red; */
+}
+
+
+.image-md
+{
+    width: 28rem;
+    height:24rem;
+}
+
+/* .image-shadow
+{
+    box-shadow: 20px 10px rgba(0, 0, 0, 0.425);
+} */
+.block2
+{
+ 
+    padding: 10px;
+}
+
+.block1
+{
+    width: 30rem;
+}
+
+.block1 h1{
+    margin-bottom: 12px;
+    font-size: 3.5rem;
+}
+
+.block1 p
+{
+    line-height: 1.6rem;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.btn
+{
+    padding:10px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+}
+
+.color-primary
+{
+    color: var(--primary-color);
+}
+
+

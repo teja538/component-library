@@ -1,0 +1,21 @@
+
+:root{
+    --primary-color:#5E62F0;
+    --white : #f0f7f6;
+    --black : rgba(0, 0, 0, 0.856);
+}
+
+.color-white
+{
+    color:var(--white)
+}
+.color-black
+{
+    color: var(--black);
+}
+
+
+.pad-10
+{
+    padding: 12px;
+}
