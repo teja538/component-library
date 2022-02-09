@@ -1,0 +1,49 @@
+
+.avatar-round
+{
+    border-radius: 50%;
+}
+
+.avatar-text
+{
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-square
+{
+    border-radius: 5%;
+}
+
+.avatar-xs
+{
+    width: 32px;
+    height: 32px;
+}
+
+.avatar-sm
+{
+    width: 64px;
+    height: 64px;
+}
+
+.avatar-md
+{
+    width: 96px;
+    height: 96px;
+}
+.avatar-lg
+{
+    width: 128px;
+    height: 128px;
+}
+.avatar-xl
+{
+    width: 182px;
+    height: 182px;
+}
+
