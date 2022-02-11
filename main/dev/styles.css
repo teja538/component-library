@@ -1,3 +1,11 @@
+/* component - styles */
+@import url(./variables.css);
+@import url(./docs/docs.css);
+@import url(./css/components/avatar/avatar.css);
+@import url(./css/components/badge/badge.css);
+@import url(./css/components/alerts/alerts.css);
+
+
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap');
 
@@ -11,11 +19,6 @@
     padding: 0;
     margin: 0;
 }
-
-/* component - styles */
-@import url(./variables.css);
-@import url(./docs/docs.css);
-@import url(./css/components/avatar/avatar.css);
 
 .container
 {
