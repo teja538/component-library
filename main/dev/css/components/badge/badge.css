@@ -1,19 +1,25 @@
-@import url(../../../styles.css);
-
+.badge-block
+{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+}
 .badge-section
 {
     position: relative;
     display: inline;
 }
-
 .badge-end-rt
 {
     position: absolute;
     bottom: 3px;
     right: 8px;
-
 }
-
 .badge-online
 {
     width: 12px;
@@ -35,19 +41,16 @@
     width: 7px;
     height: 7px;
 }
-
 .badge-md
 {
     width: 16px;
     height: 16px;
 }
-
 .badge-lg
 {
     width: 22px;
     height: 22px;
 }
-
 .badge-xl
 {
     width: 30px;
@@ -58,15 +61,12 @@
 .badge-on-icon
 {
     margin: 0rem 2rem;
-    position: relative;
-    
+    position: relative;   
 }
-
 .icon
 {
    font-size: 1.5rem !important;
 }
-
 .icon-badge
 {
     background-color: rgb(196, 7, 7);
@@ -76,7 +76,6 @@
     position:absolute;
     top: -0.9rem;
     left: 0.8rem;
-    border: 0.05rem solid white;
-    
+    border: 0.05rem solid white;   
 }
 
