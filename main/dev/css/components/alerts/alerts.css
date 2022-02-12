@@ -1,7 +1,17 @@
 .alert
 {
     padding: 0.6rem;
-    margin: 1rem;
+    margin: 0.6rem;
+    width: 50%;
+    border-radius: 3px;
+}
+.alert-block
+{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .alert-danger
 {
@@ -43,8 +53,6 @@
     border: 2px solid var(--warning-color);
     color: var(--warning-color);
 }
-
-
 .alert-close {
     position: relative;
 }
@@ -52,15 +60,5 @@
     cursor: pointer;
     position: absolute;
     right: 1rem;
-}
-
-.preview-code h2{
-    margin-top: 1.5rem;
-}
-
-.code{
-    display: flex;
-    justify-content: center;
-    padding: 1.2rem;
 }
 

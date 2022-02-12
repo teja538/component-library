@@ -10,10 +10,6 @@
     <!-- doubt: if we import styles which contain avatar styles it's not applying why? -->
     <link rel="stylesheet" href="badge.css">
     <link rel="stylesheet" href="../../../styles.css">
-    <link rel="stylesheet" href="../../../variables.css">
-    <link rel="stylesheet" href="../../../docs/docs.css">
-
-
 </head>
 
 <body>
@@ -34,11 +30,14 @@
                 <h2 class="pad-10">components</h2>
                 <ul>
                     <li class="list-sn pad-10"><a class="no-decoration color-black"
-                            href="../avatar/avatar.html">avatar</a></li>
-                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../badge/badge.html">badge</a>
+                        href="../avatar/avatar.html">avatar</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                        href="../badge/badge.html">badge</a>
                     </li>
-                    <li class="list-sn list-non-bullet pad-10">alert</li>
-                    <li class="list-sn list-non-bullet pad-10">button</li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                        href="../alerts/alerts.html">alerts</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                        href="../button/button.html">buttons</a></li>
                     <li class="list-sn list-non-bullet pad-10">card</li>
                     <li class="list-sn list-non-bullet pad-10">image</li>
                     <li class="list-sn list-non-bullet pad-10">input</li>
@@ -54,9 +53,9 @@
                 <p>Badge components of three different variants badge-online, badge-offline,badge on icon.
                     Use the class badge-online, badge-offline,badge on icon
                     for corresponding badge component</p>
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Badge Online</h2>
-                    <div class="box">
+                    <div class="badge-block">
                         <div class="badge-section">
                             <img class="avatar-round avatar-xs " src="../../../asserts/avatarMale.jpg" alt="">
                             <span class="badge-online badge-xs badge-end-rt"></span>
@@ -83,19 +82,18 @@
                         </div>
                     </div>
                     <div class="code">
-                    <iframe
+                    <iframe class="iframe"
                     src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-xs%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-online%2520badge-xs%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-sm%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-online%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-md%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-online%2520badge-md%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-lg%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-online%2520badge-lg%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-xl%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-online%2520badge-xl%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                    style="width: 777px; height: 472px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
+                   sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
                 </div>
                 <br>
                 <!-- badge-offline -->
 
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Badge Offline</h2>
-                    <div class="box">
+                    <div class="badge-block">
                         <div class="badge-section">
                             <img class="avatar-round avatar-xs " src="../../../asserts/avatarMale.jpg" alt="">
                             <span class="badge-offline badge-xs badge-end-rt"></span>
@@ -124,7 +122,7 @@
                 <div class="code">
                     <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-xs%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2520badge-xs%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-round%2520avatar-sm%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-md%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2520badge-md%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-lg%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2520badge-lg%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-xl%2520%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2520badge-xl%2520badge-end-rt%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                    style="width: 786px; height: 472px; border:0; transform: scale(1); overflow:hidden;"
+                    style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -132,9 +130,9 @@
                 <!-- notification badge -->
                 <br>
 
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Badge on Icon</h2>
-                    <div class="box flex-row">
+                    <div class="badge-block">
                         <div class="badge-on-icon">
                             <i class="fa fa-bell icon"></i>
                             <span class="icon-badge">10</span>
@@ -146,9 +144,8 @@
                         </div>
                     </div>
                     <div class="code">
-                        <iframe
+                        <iframe class="iframe"
                         src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge-on-icon%2522%253E%250A%2520%2509%253Ci%2520class%253D%2522fa%2520fa-bell%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E10%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E"
-                        style="width: 372px; height: 174px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>

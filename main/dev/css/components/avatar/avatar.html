@@ -8,8 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../../styles.css">
     <link rel="stylesheet" href="avatar.css">
-    <link rel="stylesheet" href="../../../variables.css">
-    <link rel="stylesheet" href="../../../docs/docs.css">
 </head>
 
 <body>
@@ -30,11 +28,13 @@
                 <h2 class="pad-10">components</h2>
                 <ul>
                     <li class="list-sn pad-10"><a class="no-decoration color-black"
-                            href="../css/components/avatar/avatar.html">avatar</a></li>
+                            href="../avatar/avatar.html">avatar</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../badge/badge.html">badge</a>
+                    </li>
                     <li class="list-sn pad-10"><a class="no-decoration color-black"
-                            href="../badge/badge.html">badge</a></li>
-                    <li class="list-sn list-non-bullet pad-10">alert</li>
-                    <li class="list-sn list-non-bullet pad-10">button</li>
+                            href="../alerts/alerts.html">alerts</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../button/button.html">buttons</a></li>
                     <li class="list-sn list-non-bullet pad-10">card</li>
                     <li class="list-sn list-non-bullet pad-10">image</li>
                     <li class="list-sn list-non-bullet pad-10">input</li>
@@ -48,71 +48,57 @@
                     for corresponding avatar component and
                     classes avatar-xs avatar-sm avatar-md avatar-lg avatar-xl for avatars of different sizes</p>
 
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Round-Avatar</h2>
-                    <div class="avatarRound box">
+                    <div class="avatar-block">
                         <img class="avatar-round avatar-xs" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-round avatar-sm" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-round avatar-md" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-round avatar-lg" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-round avatar-xl" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                     </div>
 
                     <div class="code">
-                        <iframe
+                        <iframe class="iframe"
                             src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-round%2520avatar-xs%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%2520%250A%253Cimg%2520class%253D%2522avatar-round%2520avatar-sm%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-round%2520avatar-md%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-round%2520avatar-lg%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-round%2520avatar-xl%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E"
-                            style="width: 778px; height: 204px; border:0; transform: scale(1);"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
 
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Square-Avatar</h2>
-                    <div class="avatarSquare box">
+                    <div class="avatar-block">
                         <!-- <img class="avatar-square" src="../../../asserts/avatarMale.jpg" alt="avatar"> -->
-
                         <img class="avatar-square avatar-xs" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-square avatar-sm" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-square avatar-md" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-square avatar-lg" src="../../../asserts/avatarMale.jpg" alt="avatar">
-
                         <img class="avatar-square avatar-xl" src="../../../asserts/avatarMale.jpg" alt="avatar">
                     </div>
                     <div class="code">
-                        <iframe
+                        <iframe class="iframe"
                             src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-square%2520avatar-xs%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-square%2520avatar-sm%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-square%2520avatar-md%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-square%2520avatar-lg%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-square%2520avatar-xl%2522%2520src%253D%2522..%252F..%252F..%252Fasserts%252FavatarMale.jpg%2522%2520alt%253D%2522avatar%2522%253E"
-                            style="width: 778px; height: 177px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-
                 </div>
 
-                <div class="items-center">
+                <div class="preview-code">
                     <h2>Text-Avatar</h2>
-                <div class="avatarText flex-row box">
-                    <div class="avatar-text avatar-xs">CT</div>
-                    <div class="avatar-text avatar-sm">CT</div>
-                    <div class="avatar-text avatar-md">CT</div>
-                    <div class="avatar-text avatar-lg">CT</div>
-                    <div class="avatar-text avatar-xl">CT</div>
-                </div>
-                <div class="code">
-                    <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xs%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xl%2522%253ECT%253C%252Fdiv%253E"
-                    style="width: 399px; height: 177px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
+                    <div class="avatar-block">
+                        <div class="avatar-text avatar-xs">CT</div>
+                        <div class="avatar-text avatar-sm">CT</div>
+                        <div class="avatar-text avatar-md">CT</div>
+                        <div class="avatar-text avatar-lg">CT</div>
+                        <div class="avatar-text avatar-xl">CT</div>
+                    </div>
+                    <div class="code">
+                        <iframe class="iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xs%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg%2522%253ECT%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xl%2522%253ECT%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
                 </div>
             </div>
 
