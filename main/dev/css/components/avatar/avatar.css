@@ -2,6 +2,7 @@
 .avatar-round
 {
     border-radius: 50%;
+  
 }
 
 .avatar-text
@@ -46,4 +47,47 @@
     width: 182px;
     height: 182px;
 }
+
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 10px;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+
+.items-center
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-center h2{
+    margin-top: 2rem;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end ;
+}
+
+
+
+
+
+
+
+
+
 
