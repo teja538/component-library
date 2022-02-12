@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alerts</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-fixed">
+            <div class="navbrand">KrishUI</div>
+            <ul>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./index.html"
+                        class="no-decoration color-white">Get-Started</a></li>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./docs/docs.html"
+                        class="no-decoration color-white">Documentation</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-doc-section">
+            <div class="sidenav sidenav-fixed pad-10">
+                <h2 class="pad-10">components</h2>
+                <ul>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../avatar/avatar.html">avatar</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../badge/badge.html">badge</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../alerts/alerts.html">alerts</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                             href="../button/button.html">buttons</a></li>
+                    <li class="list-sn list-non-bullet pad-10">card</li>
+                    <li class="list-sn list-non-bullet pad-10">image</li>
+                    <li class="list-sn list-non-bullet pad-10">input</li>
+                    <li class="list-sn list-non-bullet pad-10">text</li>
+                </ul>
+            </div>
+
+
+            <div class="docs pad-10">
+                <h1>Buttons</h1>
+                <p>The Button component is used to trigger an action or event, such as submitting a form, Add to cart,
+                    canceling an action, or performing a delete operation.</p>
+
+                <div class="preview-code">
+                    <h2>Filled Buttons</h2>
+                    <p>These are the basic buttons. Use classes btn-danger or btn-success or btn-info or btn-warning for corresponding buttons</p>
+                    <div class="buttons-block">
+                        <button class="btn btn-danger">Danger</button>
+                        <button class="btn btn-success">Success</button>
+                        <button class="btn btn-info">Info</button>
+                        <button class="btn btn-warning">Warning</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe> 
+                    </div>
+                </div>
+
+                <div class="preview-code">
+                    <h2>Outline Buttons</h2>
+                    <p>These are the buttons with outlines. Use classes btn-danger-outline or btn-success-outline or btn-info-outline or btn-warning-outline for corresponding button styles
+                    </p>
+                    <div class="buttons-block">
+                        <button class="btn btn-danger-outline">Danger</button>
+                        <button class="btn btn-success-outline">Success</button>
+                        <button class="btn btn-info-outline">Info</button>
+                        <button class="btn btn-warning-outline">Warning</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info-outline%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning-outline%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>       
+                
+                <div class="preview-code">
+                    <h2>Button with Icons</h2>
+                    <p>You can add corresponding icons along with buttons as follows
+                    </p>
+                    <div class="buttons-block">
+                        <button class="btn btn-danger-outline"><i class="fa fa-close"></i> Close</button>
+                        <button class="btn btn-info">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                        <button class="btn btn-warning"><i class="fa fa-microphone"></i> Record</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%2520Close%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EAdd%2520to%2520cart%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253E%253Ci%2520class%253D%2522fa%2520fa-microphone%2522%253E%253C%252Fi%253E%2520Record%253C%252Fbutton%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                </div>       
+
+                <div class="preview-code">
+                    <h2>Icon Buttons</h2>
+                    <p>These are the icon buttons. Add icon-btn class and icon-btn-info or icon-btn-danger or icon-btn-success or icon-btn-warning as per 
+                        the use case. And if you need ouline icon button then add icon-btn-success-outline class as per the use case.
+                    </p>
+                    <div class="buttons-block">
+                        <button class="icon-btn icon-btn-info"><i class="fa fa-share"></i></button>
+                        <button class="icon-btn icon-btn-success-outline"><i class="fa fa-check"></i></button>
+                        <button class="icon-btn icon-btn-warning"><i class="fa fa-music"></i></button>
+                       
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-btn%2520icon-btn-info%2522%253E%253Ci%2520class%253D%2522fa%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2520icon-btn-success-outline%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2520icon-btn-warning%2522%253E%253Ci%2520class%253D%2522fa%2520fa-music%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

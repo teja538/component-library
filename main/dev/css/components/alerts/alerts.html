@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alerts</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="alerts.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-fixed">
+            <div class="navbrand">KrishUI</div>
+            <ul>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./index.html"
+                        class="no-decoration color-white">Get-Started</a></li>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./docs/docs.html"
+                        class="no-decoration color-white">Documentation</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-doc-section">
+            <div class="sidenav sidenav-fixed pad-10">
+                <h2 class="pad-10">components</h2>
+                <ul>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../avatar/avatar.html">avatar</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../badge/badge.html">badge</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../alerts/alerts.html">alerts</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../button/button.html">buttons</a></li>
+                    <li class="list-sn list-non-bullet pad-10">card</li>
+                    <li class="list-sn list-non-bullet pad-10">image</li>
+                    <li class="list-sn list-non-bullet pad-10">input</li>
+                    <li class="list-sn list-non-bullet pad-10">text</li>
+                </ul>
+            </div>
+
+
+            <div class="docs pad-10">
+                <h1>Alerts</h1>
+                <p>An alert displays a short, important message in a way that attracts the user's attention without
+                    interrupting the user's task.
+                    Alert messages can be used to notify the user about something special: danger, success, information
+                    or warning.</p>
+
+                <div class="preview-code">
+                    <h2>Filled Alert</h2>
+                    <p>It's a simple alert box with background filled. Use alert-danger,alert-success,alert-info,alert-warning for corresponding alerts</p>
+                    <div>
+                        <div class="alert alert-danger">This is danger alert</div>
+                        <div class="alert alert-success">This is success alert</div>
+                        <div class="alert alert-info">This is info alert</div>
+                        <div class="alert alert-warning">This is warning alert</div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EThis%2520is%2520danger%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EThis%2520is%2520success%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EThis%2520is%2520info%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EThis%2520is%2520warning%2520alert%253C%252Fdiv%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="preview-code">
+                    <h2>Outline Alert</h2>
+                    <p>It's a alert box with colored outline. Use alert-danger-outline,alert-success-outline,alert-info-outline,alert-warning-outline for corresponding alerts
+                        with outlines
+                    </p>
+                    <div>
+                        <div class="alert alert-danger-outline">This is danger alert</div>
+                        <div class="alert alert-success-outline">This is success alert</div>
+                        <div class="alert alert-info-outline">This is info alert</div>
+                        <div class="alert alert-warning-outline">This is warning alert</div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger-outline%2522%253EThis%2520is%2520danger%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-success-outline%2522%253EThis%2520is%2520success%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-info-outline%2522%253EThis%2520is%2520info%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning-outline%2522%253EThis%2520is%2520warning%2520alert%253C%252Fdiv%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                </div>
+
+                <div class="preview-code">
+                    <h2>Alert with close option</h2>
+                    <p>Just add class alert-close and add span with class close-alert to get the close option on alert</p>
+                    <div>
+                        <div class="alert alert-danger alert-close">This is danger alert <span class="close-alert">X</span></div>
+                        <div class="alert alert-info-outline alert-close">This is info alert  <span class="close-alert">X</span></div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520alert-close%2522%253EThis%2520is%2520danger%2520alert%2520%253Cspan%2520class%253D%2522close-alert%2522%253EX%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info-outline%2520alert-close%2522%253EThis%2520is%2520info%2520alert%2520%253Cspan%2520class%253D%2522close-alert%2522%253EX%253C%252Fspan%253E%253C%252Fdiv%253E"
+                        style="width:100%;max-width: 600px; height: 12rem; border:0; overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>               
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

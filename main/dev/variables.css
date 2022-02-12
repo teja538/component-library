@@ -3,8 +3,12 @@
     --primary-color:#5E62F0;
     --white : #f0f7f6;
     --black : rgba(0, 0, 0, 0.856);
+    --danger-color:#f66359;
+    --success-color:#2fb986;
+    --info-color:#47a8f5;
+    --warning-color:#ffaa2c;
 }
-
+/* colors */
 .color-white
 {
     color:var(--white)
@@ -13,8 +17,61 @@
 {
     color: var(--black);
 }
+.color-danger
+{
+    color:var(--danger-color)
+}
+.color-success
+{
+    color: var(--success-color);
+}
+.color-info
+{
+    color: var(--info-color);
+}
+.color-warning
+{
+    color: var(--warning-color);
+}
+
+/* back-ground colors */
+.bg-danger
+{
+    background-color: var(--danger-color);
+}
+.bg-success
+{
+    background-color: var(--success-color);
+}
+.bg-info
+{
+    background-color: var(--info-color);
+}
+.bg-warning
+{
+    background-color: var(--warning-color);
+}
+
+/* outlines */
+.out-line-danger
+{
+    border: 2px solid var(--danger-color);
+}
+.out-line-success
+{
+    border: 2px solid var(--success-color);
+}
+.out-line-info
+{
+    border: 2px solid var(--info-color)
+}
+.out-line-warning
+{
+    border: 2px solid var(--warning-color);
+}
 
 
+/* paddings and margins */
 .pad-10
 {
     padding: 12px;

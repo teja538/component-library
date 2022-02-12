@@ -1,0 +1,87 @@
+.btn
+{
+    padding: 0.6rem 1rem;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.btn-danger
+{
+    background-color: var(--danger-color);
+    color: var(--white);
+}
+.btn-success
+{
+    background-color: var(--success-color);
+    color: var(--white);
+}
+.btn-info
+{
+    background-color: var(--info-color);
+    color: var(--white);
+}
+.btn-warning
+{
+    background-color: var(--warning-color);
+    color: var(--white);
+}
+.btn-danger-outline
+{
+    border: 2px solid var(--danger-color);
+    color: var(--danger-color);
+}
+.btn-success-outline
+{
+    border: 2px solid var(--success-color);
+    color: var(--success-color);
+}
+.btn-info-outline
+{
+    border: 2px solid var(--info-color);
+    color: var(--info-color);
+}
+.btn-warning-outline
+{
+    border: 2px solid var(--warning-color);
+    color: var(--warning-color);
+}
+.icon-btn
+{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: none;
+}
+.icon-btn-info
+{
+    background-color: var(--info-color);
+    color: var(--white);
+}
+.icon-btn-success
+{
+    background-color: var(--success-color);
+    color: var(--white);
+}
+.icon-btn-warning
+{
+    background-color: var(--warning-color);
+    color: var(--white);
+}
+.icon-btn-danger
+{
+    background-color: var(--danger-color);
+    color: var(--white);
+}
+.icon-btn-success-outline
+{
+    color: var(--success-color);
+    border: 2px solid var(--success-color);
+}
+.buttons-block
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    align-items: center;
+}
