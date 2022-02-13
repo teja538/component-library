@@ -3,6 +3,7 @@
     padding: 0.6rem 1rem;
     border: none;
     font-size: 1.1rem;
+    border-radius: 5px;
 }
 .btn-danger
 {
