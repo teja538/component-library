@@ -1,0 +1,24 @@
+.image-block
+{
+   border: 0.1rem solid var(--black-light);
+   padding: 0.5rem;
+   width: 60%; 
+   margin: 1.5rem auto;
+}
+.image-block-round
+{
+   padding: 0.5rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.img-responsive
+{
+    width: 100%;
+}
+
+.img-round
+{
+    padding: 0.5rem;
+    border-radius: 50%;
+}
