@@ -1,0 +1,31 @@
+.text-block
+{
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+.text-block-other
+{
+    display: inline-block;
+    display: flex;
+    justify-content: center; 
+}
+.block
+{
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid var(--black-light);
+}
+.block-other
+{
+    width: 50%;
+}
+.gray-text
+{
+    color: var(--black-light);
+}
+.center-text
+{
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.list-block
+{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+}
+.list-style-square
+{
+    list-style-type: square;
+}
+.list-style-circle
+{
+    list-style-type: circle;
+}
+.list-item
+{
+    padding:1rem 5rem;
+    background-color: var(--primary-color);
+    border: 0.1rem solid var(--black-light);
+    margin-top: -0.8rem;
+   
+}
+.list-item3
+{
+    z-index: 3;
+}
+.list-item2
+{
+    z-index: 2;
+}
+.list-item1
+{
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+

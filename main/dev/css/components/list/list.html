@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="alerts.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-fixed">
+            <div class="navbrand">KrishUI</div>
+            <ul>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./index.html"
+                        class="no-decoration color-white">Get-Started</a></li>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="./docs/docs.html"
+                        class="no-decoration color-white">Documentation</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-doc-section">
+            <div class="sidenav sidenav-fixed pad-10">
+                <h2 class="pad-10">components</h2>
+                <ul>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../avatar/avatar.html">avatar</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../badge/badge.html">badge</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="./alerts.html">alerts</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black"
+                            href="../button/button.html">buttons</a></li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../cards/cards.html">cards</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../image/image.html">image</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../input/input.html">input</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../text/text.html">text</a>
+                    </li>
+                    <li class="list-sn pad-10"><a class="no-decoration color-black" href="../list/list.html">list</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="docs pad-10">
+                <h1>Lists</h1>
+                <p>Lists are flexible and powerful component for displaying a series of content.</p>
+
+                <div class="preview-code">
+                    <h2>Normal lists</h2>
+                    <p>There are diffrent types of list, orderd, unordered, non-bullets.</p>
+                    <div class="list-block">
+                        <!--unordered list-->
+                        <ul class="list-style">
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                            <li>Item Three</li>
+                            <li>Item Four</li>
+                        </ul>
+                         <!--unordered list type square-->
+                         <ul class="list-style-square">
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                            <li>Item Three</li>
+                            <li>Item Four</li>
+                        </ul>
+                        <!--unordered list type circle-->
+                        <ul class="list-style-circle">
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                            <li>Item Three</li>
+                            <li>Item Four</li>
+                        </ul>
+
+                        <!--ordered list-->
+                        <ol class="list-style">
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                            <li>Item Three</li>
+                            <li>Item Four</li>
+                        </ol>
+
+                        <!--non-bullets list-->
+                        <ul class="list-style list-non-bullet">
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                            <li>Item Three</li>
+                            <li>Item Four</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="code">
+                        <iframe class="iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--unordered%2520list--%253E%250A%253Cul%2520class%253D%2522list-style%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Four%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%253C%21--unordered%2520list%2520type%2520square--%253E%250A%2520%253Cul%2520class%253D%2522list-style-square%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Four%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%21--unordered%2520list%2520type%2520circle--%253E%250A%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Four%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253C%21--ordered%2520list--%253E%250A%253Col%2520class%253D%2522list-style%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Four%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--non-bullets%2520list--%253E%250A%253Cul%2520class%253D%2522list-style%2520list-non-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Four%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                    </div>
+                </div>
+
+                <div class="preview-code">
+                    <h2>Stacked lists</h2>
+                    <div class="list-block">
+                        <ul reversed class="stacked-list list-non-bullet">
+                            <li class="list-item list-item1">twitter notification</li>
+                            <li class="list-item list-item2">whatsapp notification</li>
+                            <li class="list-item list-item3">linkedIn notification</li>
+                        </ul>
+                    </div>
+                    <div class="code">
+                        <iframe class="iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520reversed%2520class%253D%2522stacked-list%2520list-non-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item1%2522%253Etwitter%2520notification%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item2%2522%253Ewhatsapp%2520notification%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item3%2522%253ElinkedIn%2520notification%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+

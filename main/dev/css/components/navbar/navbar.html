@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alerts</title>
+    <title>nav</title>
     <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="alerts.css">
 </head>
 
@@ -40,20 +41,44 @@
 
 
             <div class="docs pad-10">
-                <h1>Alerts</h1>
+                <h1>Navbar</h1>
                 <p>An alert displays a short, important message in a way that attracts the user's attention without
                     interrupting the user's task.
                     Alert messages can be used to notify the user about something special: danger, success, information
                     or warning.</p>
 
                 <div class="preview-code">
-                    <h2>Filled Alert</h2>
-                    <p>It's a simple alert box with background filled. Use alert-danger,alert-success,alert-info,alert-warning for corresponding alerts</p>
-                    <div class="alert-block">
-                        <div class="alert alert-danger">This is danger alert</div>
-                        <div class="alert alert-success">This is success alert</div>
-                        <div class="alert alert-info">This is info alert</div>
-                        <div class="alert alert-warning">This is warning alert</div>
+                    <h2>Basic Navbar</h2>
+                    <div class="nav-block">
+                        <nav class="basic-navbar">
+                            <div class="nav-brand">Brand</div>
+                            <ul class="list-non-bullet">
+                                <li class="nav-item list-item-inline"><a href="" class="no-decoration color-white">item1</a></li>
+                                <li class="nav-item list-item-inline"><a href="" class="no-decoration color-white">item2</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="code">
+                        <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EThis%2520is%2520danger%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EThis%2520is%2520success%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EThis%2520is%2520info%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EThis%2520is%2520warning%2520alert%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="preview-code">
+                    <h2>Navbar with search</h2>
+                    <div class="nav-block">
+                        <nav class="basic-navbar">
+                            <div class="nav-brand">Brand</div>
+                            <div class="nav-search">
+                                <input type="text" class="inp-search" placeholder="search something">
+                            </div> 
+                            <ul class="list-non-bullet">
+                                <li class="nav-item list-item-inline"><a href="" class="no-decoration color-white">item1</a></li>
+                                <li class="nav-item list-item-inline"><a href="" class="no-decoration color-white">item2</a></li>
+                            </ul>
+                        </nav>
                     </div>
 
                     <div class="code">
@@ -64,47 +89,8 @@
                     </div>
                 </div>
 
-                <div class="preview-code">
-                    <h2>Outline Alert</h2>
-                    <p>It's a alert box with colored outline. Use alert-danger-outline,alert-success-outline,alert-info-outline,alert-warning-outline for corresponding alerts
-                        with outlines
-                    </p>
-                    <div class="alert-block">
-                        <div class="alert alert-danger-outline">This is danger alert</div>
-                        <div class="alert alert-success-outline">This is success alert</div>
-                        <div class="alert alert-info-outline">This is info alert</div>
-                        <div class="alert alert-warning-outline">This is warning alert</div>
-                    </div>
-
-                    <div class="code">
-                        <iframe class="iframe"
-                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger-outline%2522%253EThis%2520is%2520danger%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-success-outline%2522%253EThis%2520is%2520success%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-info-outline%2522%253EThis%2520is%2520info%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning-outline%2522%253EThis%2520is%2520warning%2520alert%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                    </div>
-                </div>
-
-                <div class="preview-code">
-                    <h2>Alert with close option</h2>
-                    <p>Just add class alert-close and add span with class close-alert to get the close option on alert</p>
-                    <div class="alert-block">
-                        <div class="alert alert-danger alert-close">This is danger alert <span class="close-alert">X</span></div>
-                        <div class="alert alert-info-outline alert-close">This is info alert  <span class="close-alert">X</span></div>
-                    </div>
-
-                    <div class="code">
-                        <iframe class="iframe"
-                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520alert-close%2522%253EThis%2520is%2520danger%2520alert%2520%253Cspan%2520class%253D%2522close-alert%2522%253EX%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info-outline%2520alert-close%2522%253EThis%2520is%2520info%2520alert%2520%253Cspan%2520class%253D%2522close-alert%2522%253EX%253C%252Fspan%253E%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                </div>               
             </div>
         </div>
     </div>
-
-
 </body>
-
 </html>
