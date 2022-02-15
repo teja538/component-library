@@ -22,6 +22,7 @@
 }
 .inp-search
 {
+    width: 20rem;
     border: none;
     padding: 0.4rem;
     border-radius: 5px;
