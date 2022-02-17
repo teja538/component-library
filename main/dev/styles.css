@@ -10,27 +10,22 @@
 @import url(./css/components/input/input.css);
 @import url(./css/components/text/text.css);
 @import url(./css/components/list/list.css);
-
+@import url(./css/components/navbar/navbar.css);
 
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap');
-
 /* font-awesome icons*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
-
 /* applying font */
 * {
     font-family: 'Hind Vadodara', sans-serif;
     padding: 0;
     margin: 0;
 }
-
 .container
 {
     padding: 0px 10%;
 }
-
 .navbar{
     padding: 0px 10%;
     display: flex;
@@ -40,13 +35,11 @@
     background-color: var(--primary-color);
     color: var(--white); 
 }
-
 .navbar-fixed
 {
    position: fixed;
    top: 0px;
    width: 80%;
-  
 }
 
 /* write in media query*/
@@ -54,29 +47,16 @@
 {
     margin-top: 84px;
 } 
-
 .navbrand
 {
    padding: 18px;
    font-size: 2em;
    font-weight: 600;
 }
-
-.list-non-bullet
-{
-    list-style: none;
-}
-
-.list-item-inline
-{
-    display: inline;
-}
-
 .no-decoration
 {
     text-decoration: none;
 }
-
 .list-pad
 {
     padding-right: 20px;
