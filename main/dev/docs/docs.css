@@ -12,6 +12,7 @@
 }
 .docs {
   margin-left: 250px;
+  margin-right: 9%;
   flex-grow: 1;
 }
 .list-sn:hover {

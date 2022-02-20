@@ -11,6 +11,7 @@
 @import url(./css/components/text/text.css);
 @import url(./css/components/list/list.css);
 @import url(./css/components/navbar/navbar.css);
+@import url(./css/components/install/install.css);
 
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap');
