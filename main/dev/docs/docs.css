@@ -24,6 +24,10 @@
 .list-sn a:hover {
   color: var(--white);
 }
+.list-sn
+{
+  padding: 0.5rem 1rem;
+}
 
 /*iframe*/
 .iframe
