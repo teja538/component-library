@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-fixed">
+            <div class="navbrand">KrishUI</div>
+            <ul>
+                <li class="list-pad list-non-bullet list-item-inline"><a href="../install/install.html"
+                        class="no-decoration color-white">Documentation</a></li>
+                <li class="list-pad list-non-bullet list-item-inline"><a
+                        href="https://github.com/teja538/component-library" class="no-decoration color-white">GitHub</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="nav-doc-section">
+            <div class="sidenav sidenav-fixed pad-10">
+                <h2 class="pad-10">Get Started</h2>
+                <li class="list-sn list-non-bullet pad-10"><a class="no-decoration color-black"
+                        href="../install/install.html">Installation</a></li>
+                <h2 class="pad-10">components</h2>
+                <ul>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../avatar/avatar.html">Avatar</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../badge/badge.html">Badge</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="./alerts.html">Alerts</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../button/button.html">Buttons</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../cards/cards.html">Cards</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../image/image.html">Image</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../input/input.html">Input</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../text/text.html">Text</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../list/list.html">List</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../navbar/navbar.html">Navbar</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../rating/rating.html">Rating</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="./modal.html">Modal</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../toast/toast.html">Toast</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black"
+                            href="../grid/grid.html">Grid</a></li>
+                </ul>
+            </div>
+
+
+            <div class="docs pad-10">
+                <h1>Modal</h1>
+                <p>A modal (also called a modal window or lightbox) is a web page element that displays in front of and
+                    deactivates all other page content. To return to the main content, the user must engage with the
+                    modal by completing an action or by closing it.</p>
+                <div class="preview-code">
+                    <h2>Text-modal</h2>
+                    <p>It is the simple modal with text and closes on clicking X on top right</p>
+                    <div class="modal-block">
+                        <button class="btn btn-info modal-btn">Open modal</button>
+                    </div>
+
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close close-modal">X</span>
+                            <p>some instructions or text in the modal</p>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe class="iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-block%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2520modal-btn%2522%253EOpen%2520modal%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2520close-modal%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esome%2520instructions%2520or%2520text%2520in%2520the%2520modal%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="preview-code">
+                    <h2>Modal with Button</h2>
+                    <p>It is modal with button having some information. The modal closes on completing the action.
+                    </p>
+
+                    <div class="modal-block">
+                        <button class="btn btn-info modal-with-btn-btn">Open modal with button</button>
+                    </div>
+                    <div class="modal-with-btn">
+                        <div class="modal-content">
+                            <span class="close close-modal2">X</span>
+                            <p>We use cookies for improving use experience, analytics and marketing</p>
+                            <button class="btn btn-success accept margin-top-10">Accept</button>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe class="iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-block%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2520modal-with-btn-btn%2522%253EOpen%2520modal%2520with%2520button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal-with-btn%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2520close-modal2%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWe%2520use%2520cookies%2520for%2520improving%2520use%2520experience%252C%2520analytics%2520and%2520marketing%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2520accept%2520margin-top-10%2522%253EAccept%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
+
+</body>
+
+</html>

@@ -3,15 +3,15 @@
 }
 .sidenav {
   width: 224px;
-  height: 90vh;
+  height: 86%;
   border-right: 1px solid #5e62f0;
-  /* background-color: #5e63f0d8; */
+  overflow-y: scroll;
 }
 .sidenav-fixed {
   position: fixed;
 }
 .docs {
-  margin-left: 250px;
+  margin-left: 280px;
   margin-right: 9%;
   flex-grow: 1;
 }

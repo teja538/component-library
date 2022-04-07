@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>input</title>
+    <title>grid</title>
     <link rel="stylesheet" href="../../../styles.css">
 </head>
 
@@ -27,11 +27,11 @@
                 <ul>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../avatar/avatar.html">Avatar</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../badge/badge.html">Badge</a></li>
-                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../alerts/alerts.html">Alerts</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="./alerts.html">Alerts</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../button/button.html">Buttons</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../cards/cards.html">Cards</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../image/image.html">Image</a></li>
-                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="./input.html">Input</a></li>
+                    <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../input/input.html">Input</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../text/text.html">Text</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../list/list.html">List</a></li>
                     <li class="list-sn list-non-bullet"><a class="no-decoration color-black" href="../navbar/navbar.html">Navbar</a></li>
@@ -44,45 +44,47 @@
 
 
             <div class="docs pad-10">
-                <h1>Input</h1>
-                <p>The input is used to get user input or user data</p>
+                <h1>Grid</h1>
+                <p>A grid container contains grid items.
+
+                    By default, a container has one grid item for each column, in each row, but you can style the grid items so that they will span multiple columns and/or rows.</p>
 
                 <div class="preview-code">
-                    <h2>Input-text</h2>
-                    <p>use the class basic-input to get the basic text input field</p>
-                    <div class="input-block">
-                        <div>
-                            <label for="name" class="basic-input-label">Name*</label>
-                            <input type="text" class="basic-input" placeholder="Enter name">
-                        </div> 
+                    <h2>Grid - two items</h2>
+                    <div class="grid-block">
+                        <div class="grid-two-items">
+                            <div class="grid-item">Item1</div>
+                            <div class="grid-item">Item2</div>
+                        </div>
                     </div>
 
                     <div class="code">
                         <iframe class="iframe"
-                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522basic-input-label%2522%253EName*%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522basic-input%2522%2520placeholder%253D%2522Enter%2520name%2522%253E"
-                        sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-two-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EItem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EItem2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
 
                 <div class="preview-code">
-                    <h2>Input with validation</h2>
-                    <p>use the class basic-input-err and err-msg to get the validation style
-                    </p>
-                    <div class="input-block">
-                        <div>
-                            <label for="name" class="basic-input-label">Name*</label>
-                            <input type="text" class="basic-input basic-input-err" placeholder="Enter name">
-                            <small class="err-msg">This is required field*</small>
-                        </div> 
+                    <h2>Grid - three items</h2>
+                    <div class="grid-block">
+                        <div class="grid-three-items">
+                            <div class="grid-item item1">item1</div>
+                            <div class="grid-item item2">item2</div>
+                            <div class="grid-item item3">item3</div>  
+                            <div class="grid-item item4">item4</div>
+                            <div class="grid-item item5">item5</div>
+                        </div>
                     </div>
+
                     <div class="code">
                         <iframe class="iframe"
-                        src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522basic-input-label%2522%253EName*%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522basic-input%2520basic-input-err%2522%2520placeholder%253D%2522Enter%2520name%2522%253E%250A%253Csmall%2520class%253D%2522err-msg%2522%253EThis%2520is%2520required%2520field*%253C%252Fsmall%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+                            src="https://carbon.now.sh/embed?bg=rgba%2850%2C50%2C130%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=13px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-three-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520item1%2522%253Eitem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520item2%2522%253Eitem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520item3%2522%253Eitem3%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520item4%2522%253Eitem4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520item5%2522%253Eitem5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
                     </div>
-                </div>        
+                </div>            
             </div>
         </div>
     </div>
