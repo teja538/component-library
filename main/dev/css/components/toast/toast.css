@@ -21,23 +21,20 @@
     top: 14%;
     right: 2%;
     z-index: 2;
-    font-size: 17px;
+    font-size: 1.2rem;
   }
 
   .snackbar-bottom {
     visibility: hidden;
     min-width: 250px;
-    background-color: var(--black);
+    background-color:var( --warning-color) ;
     color: var(--white);
     text-align: center;
     border-radius: 2px;
     padding: 12px;
     position: fixed;
-    bottom: 8%;
-    right: 40%;
+    bottom: 6%;
+    right: 2%;
     z-index: 2;
-    font-size: 17px;
+    font-size: 1.2rem;
   }
-
-
-  
